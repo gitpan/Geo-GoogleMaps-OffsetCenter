@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Offset a Lat/Long to account for an occlusion over your map area",
+  "ABSTRACT" => "Offset a Lat/Long in Google Maps",
   "AUTHOR" => "Iftekharul Haque <iftekhar\@cpan.org>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
@@ -21,13 +21,14 @@ my %WriteMakefileArgs = (
   "NAME" => "Geo::GoogleMaps::OffsetCenter",
   "PREREQ_PM" => {
     "Exporter::Easy" => 0,
+    "Math::Trig" => 0,
     "Params::Validate" => 0,
     "Regexp::Common" => 0,
     "constant" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => ""
   }
@@ -36,6 +37,7 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "Exporter::Easy" => 0,
+  "Math::Trig" => 0,
   "Params::Validate" => 0,
   "Regexp::Common" => 0,
   "constant" => 0,

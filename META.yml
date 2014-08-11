@@ -1,5 +1,5 @@
 ---
-abstract: 'Offset a Lat/Long to account for an occlusion over your map area'
+abstract: 'Offset a Lat/Long in Google Maps'
 author:
   - 'Iftekharul Haque <iftekhar@cpan.org>'
 build_requires: {}
@@ -14,9 +14,10 @@ meta-spec:
 name: Geo-GoogleMaps-OffsetCenter
 requires:
   Exporter::Easy: '0'
+  Math::Trig: '0'
   Params::Validate: '0'
   Regexp::Common: '0'
   constant: '0'
   strict: '0'
   warnings: '0'
-version: '0.01'
+version: '0.02'

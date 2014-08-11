@@ -1,9 +1,9 @@
 
 
 This archive contains the distribution Geo-GoogleMaps-OffsetCenter,
-version 0.01:
+version 0.02:
 
-  Offset a Lat/Long to account for an occlusion over your map area
+  Offset a Lat/Long in Google Maps
 
 This software is copyright (c) 2014 by Iftekharul Haque.
 
